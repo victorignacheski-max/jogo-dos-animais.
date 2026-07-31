@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#7ed6df,#22a6b3);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    width:350px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+h1{
+    color:#22a6b3;
+}
+
+.emoji{
+    font-size:90px;
+    margin:20px;
+}
+
+button{
+    padding:10px 20px;
+    margin:8px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    background:#22a6b3;
+    color:white;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#0f7b85;
+    transform:scale(1.05);
+}
+
+#resultado{
+    font-size:22px;
+    font-weight:bold;
+    min-height:30px;
+}
+
+.correto{
+    color:green;
+}
+
+.errado{
+    color:red;
+}
